@@ -1,0 +1,5 @@
+- name: VM Reboot
+  hosts: all
+  tasks:
+    - name: Reboot a target VM
+      reboot:
