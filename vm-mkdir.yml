@@ -3,5 +3,5 @@
   tasks:
     - name: Creates directory
       file:
-    	path: $HOME/src/www
-    	state: directory
+        path: $HOME/src/www
+        state: directory
