@@ -1,0 +1,7 @@
+- name: VM Reboot
+  hosts: all
+  tasks:
+    - name: Creates directory
+      file:
+    	path: $HOME/src/www
+    	state: directory
